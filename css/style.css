@@ -5,3 +5,25 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+header {
+    /* height: 90px; */
+    background-color:coral
+}
+
+.navigazione {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    border: 2px solid red;
+    padding-right: 20px;
+    padding: 30px;
+}
