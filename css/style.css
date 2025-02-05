@@ -32,6 +32,7 @@ li {
     background-color: aqua;
 }
 
+
 .container {
     height: 410px;
     width: 1200px;
@@ -42,7 +43,7 @@ li {
 #h1 {
     text-align: left;
     font-size: 50px;
-    width: 1050px;
+    width: 1200px;
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 70px;
@@ -73,8 +74,7 @@ hr {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    border: 2px solid black;
-    gap: 50px;
+    gap: 40px;
 }
 
 .column {
@@ -95,4 +95,30 @@ span {
     margin-bottom: 50px;
    
     
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    border-bottom: 2px solid black;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.column2 {
+    height: 220px;
+    border: 2px solid black;
+    width: 1200px;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    border-bottom: 2px solid black;
+    width: 370px;
+    margin: 0 auto;
+
 }
