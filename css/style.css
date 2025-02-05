@@ -64,15 +64,16 @@ hr {
     margin-top: 130px;
 }
 .grill {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     margin-bottom: 50px;
+    margin-left: 200px;
    
 
 }
 
 .row {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     display: flex;
     gap: 40px;
@@ -81,7 +82,7 @@ hr {
 .column {
     height: 950px;
     border: 2px solid black;
-    width: calc(100% - 100px / 3);
+    width: calc(100% - 40px / 3);
 }
 
 .secondtitle {
@@ -104,7 +105,7 @@ span {
     height: x;
     border-bottom: 2px solid black;
     width: 1200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding-top: 50px;
     
 }
@@ -121,12 +122,14 @@ span {
     height: 40px;
     border-bottom: 2px solid black;
     width: 370px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 }
 
 .container2 {
-    padding-top: 80px;
+    /* padding-top: 80px;
+    margin-bottom: 100px; */
+    margin-top: 100px;
     height: 410px;
     width: 1200px;
     margin: 0 auto;
@@ -142,4 +145,22 @@ span {
     
     width: 400px;
     background-color: chocolate;
+}
+
+.grill2 {
+
+    
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.riga {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    height: 450px;
+    width: calc(100% / 3);
+    flex-shrink: 0;
+    border: 2px solid black;
 }
