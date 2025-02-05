@@ -49,13 +49,50 @@ li {
 }
 
 .box1 {
-    
     width: 410px;
     background-color: chartreuse;
 }
 
 .box2 {
     
-    width: 785px;
+    width: 790px;
     background-color: chocolate;
+}
+
+hr {
+    margin-top: 130px;
+}
+.grill {
+    width: 1200px;
+    margin: 0 auto;
+   
+
+}
+
+.row {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid black;
+    gap: 50px;
+}
+
+.column {
+    height: 950px;
+    border: 2px solid black;
+    width: calc(100% - 100px / 3);
+}
+
+.secondtitle {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+span {
+    margin-right: 45px;
+    font-size: 12px;
+    margin-bottom: 50px;
+   
+    
 }
