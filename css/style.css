@@ -223,6 +223,11 @@ main li {
     border-bottom: 2px solid grey;
 }
 
+#contact {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
 .check i {
     color: green;
 }
@@ -232,21 +237,21 @@ main li {
     font-weight: bold;
 }
 
-/* .row2 {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 2px solid black;
-    width: 100%;
-    padding-top: 50px;
-    
-} */
-
 .column2 {
-    height: 220px;
+    /* height: 220px; */
     border: 2px solid black;
     width: 1050px;
 }
 
+h5 {
+    padding: 30px 30px;
+}
+
+p {
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
 
 .container2 {
     height: 410px;
