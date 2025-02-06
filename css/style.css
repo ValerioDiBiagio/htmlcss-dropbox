@@ -6,11 +6,14 @@
     box-sizing: border-box;
 }
 
+/* font */
+
 .open-sans {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
 }
 
+/* header */
 
 header {
     background-color: #ffffff;
@@ -19,6 +22,7 @@ header {
     z-index: 5;
     left: 0;
     right: 0;
+    box-shadow: 1px 1px 2px #b4d0e6;
 }
 
 .navigazione {
@@ -40,7 +44,7 @@ ul {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 header .btn {
@@ -67,7 +71,7 @@ header .btn {
 }
 
 .arrow {
-    margin-top: 70px;
+    margin-top: 20px;
     font-size: 40px;
 }
 
@@ -76,10 +80,16 @@ img {
     max-width: 100%;
 }
 
+
+/* main */
+
+
 .container {
     width: 1190px;
     margin: 0 auto;
 }
+
+/* jumbotron */
 
 #jumbotron {
     background-color: #b4d0e6;
@@ -88,11 +98,11 @@ img {
 
 #jumbotron .jumbotronbox {
     display: flex;
-    
 }
 
 #jumbotron .jumbotronleft {
     width: 30%;
+    
 }
 
 #jumbotron .jumbotronright {
@@ -101,11 +111,15 @@ img {
 
 #jumbotron .container {
     position: relative;
-    top: 100px
+    top: 100px;
+}
+
+.parag {
+    padding-left: 0px;
 }
 
 h1 {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     font-size: 80px;
 }
 
@@ -113,12 +127,12 @@ hr {
     margin-top: 130px;
 }
 
+/* prima griglia */
 
 .grill {
     width: 1000px;
     margin: 0 auto;
     margin-bottom: 50px;
-    
 }
 
 .invoice {
@@ -133,7 +147,7 @@ hr {
 }
 
 .column {
-    border: 2px solid black;
+    border: 1px solid #d0d0d2;
     width: calc((100% - 40px) / 3);
 }
 
@@ -163,15 +177,14 @@ span {
     width: 25px;;
     display: inline-block;
     border-radius: 50px;
-    border: 2px solid gray
-
+    border: 1px solid #d0d0d2
 }
 
 .icon {
     padding: 10px 40px;
     text-align: center;
     flex-direction: row;
-    border-bottom: 2px solid black;;
+    border-bottom: 1px solid #d0d0d2;
 }
 
 h3 {
@@ -183,8 +196,9 @@ h3 {
     padding-left: 30px; 
     padding-top: 30px;
 }
- .column .month {
-    color: grey;
+
+.column .month {
+    color: #d0d0d2;
     font-size: 13px;
     padding-top: 10px;
     padding-left: 30px;
@@ -204,12 +218,33 @@ main li {
 .column > .button {
     text-align: center;
     padding-top: 30px;
-
 }
 
 .column  .btn {
     padding-left: 35px;
     padding-right: 35px;
+}
+
+
+.btn2 {
+    padding: 15px;
+    background-color: #0061fe;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button2 {
+    margin-top: 35px;
+}
+
+.column > .button2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.column  .btn2 {
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .buy {
@@ -220,7 +255,7 @@ main li {
 .border {
     display: inline-block;
     height: 70px;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid #d0d0d2;
 }
 
 #contact {
@@ -229,7 +264,7 @@ main li {
 }
 
 .check i {
-    color: green;
+    color: #0e8c0e;
 }
 
 .check li:first-child {
@@ -239,7 +274,7 @@ main li {
 
 .column2 {
     position: relative;
-    border: 2px solid black;
+    border: 1px solid #d0d0d2;
     width: 1050px;
 }
 
@@ -279,7 +314,6 @@ p {
 
 .box3 {
     width: 800px;
-    
 }
 
 .box4 {
@@ -296,10 +330,16 @@ p {
     padding: 10px;
     margin-left: 30px;
     font-size: 15px;
-    border: 1px solid gray;
-    color: gray;
+    border: 1px solid #d0d0d2;
+    color: #d0d0d2;
     text-decoration: none;
 }
+
+.buttondifferentthree:hover {
+    filter: brightness(1.4);
+}
+
+/* seconda griglia */
 
 .grill2 {
     width: 1000px;
@@ -326,7 +366,6 @@ p {
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
-
 }
 
 h2 {
@@ -341,10 +380,10 @@ h2 {
     padding-left: 0px;
 }
 
-
+/* footer */
 
 footer {
-    background-color: black;
+    background-color: #000000;
     height: 450px;
 }
 
@@ -362,8 +401,7 @@ footer .list {
 .tab {
     width: 300px;
     flex-direction: column;
-    /* border: 2px solid white; */
-    color: white;
+    color:#ffffff;
     margin-top: 110px;
     
 }
@@ -375,11 +413,11 @@ footer .list {
     font-size: 13px;
 }
 
+/* seconda parte footer */
+
 .bannerfooter {
     height: 120px;
-    background-color: black;
-
-    
+    background-color: #000000;
 }
 
 .container5 {
@@ -395,7 +433,7 @@ footer .list {
 .finito {
     height: 120px;
     width: 120px;
-    border-top: 1px solid wheat;
+    border-top: 1px solid #ffffff;
     padding-top: 55px;
-    color: white;
-    }
+    color: #ffffff;
+}
