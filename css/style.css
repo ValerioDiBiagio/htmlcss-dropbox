@@ -368,6 +368,13 @@ footer .list {
     
 }
 
+.menufooter a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 13px;
+}
+
 .bannerfooter {
     height: 120px;
     background-color: black;
@@ -375,12 +382,20 @@ footer .list {
     
 }
 
+.container5 {
+    width: 1190px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.world {
+    display: inline-block;
+}
 
 .finito {
     height: 120px;
     width: 120px;
     border-top: 1px solid wheat;
-    padding: 55px;
-    padding-left: 0;
+    padding-top: 55px;
     color: white;
-}
+    }
