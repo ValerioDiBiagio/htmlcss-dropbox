@@ -6,8 +6,13 @@
     box-sizing: border-box;
 }
 
+.open-sans {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+}
+
+
 header {
-    /* height: 90px; */
     background-color:coral
 }
 
