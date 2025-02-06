@@ -249,8 +249,9 @@ h5 {
 
 p {
     padding-left: 30px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .buttondifferenttwo {
@@ -282,8 +283,22 @@ p {
 }
 
 .box4 {
+    padding-top: 30px;
     width: 400px;
-    background-color: chocolate;
+}
+
+.box4 p {
+    font-size: 14px;
+    text-align: start;
+}
+
+.buttondifferentthree {
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+    border: 1px solid gray;
+    color: gray;
+    text-decoration: none;
 }
 
 .grill2 {
