@@ -160,7 +160,7 @@ span {
 
 .col {
     height: 450px;
-    width: calc((100% - 40px) / 3);
+    width: calc((100% - 80px) / 3);
     
     border: 2px solid black;
 }
