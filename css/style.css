@@ -238,7 +238,7 @@ main li {
 }
 
 .column2 {
-    /* height: 220px; */
+    position: relative;
     border: 2px solid black;
     width: 1050px;
 }
@@ -253,19 +253,32 @@ p {
     padding-bottom: 25px;
 }
 
+.buttondifferenttwo {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #0061fe;
+    color: #ffffff;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+
+.buttondifferenttwo:hover {
+    filter: brightness(1.4);
+}
+
 .container2 {
-    height: 410px;
     width: 1000px;
     margin: 0 auto;
     display: flex;
-    background-color: aqua;
-    border: 1px solid black;
-    margin-top: 100px;
+    margin-top: 215px;
 }
 
 .box3 {
     width: 800px;
-    background-color: chartreuse;
+    
 }
 
 .box4 {
