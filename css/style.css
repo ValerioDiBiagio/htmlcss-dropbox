@@ -17,12 +17,12 @@ header {
 }
 
 
-ul {
+header ul {
     list-style-type: none;
     display: flex;
 }
 
-li {
+header li {
     border: 2px solid red;
     padding-right: 40px;
     padding: 30px;
@@ -168,7 +168,7 @@ span {
 .container3 {
     background-color: aqua;
     height: 310px;
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     margin-top: 100px;
 
@@ -180,4 +180,46 @@ h2 {
 
 h5 {
     padding-top: 80px;
+}
+
+footer {
+    background-color: black;
+    height: 450px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+
+footer .list {
+    height: 450px;
+    width: 100%;
+   display: flex;
+}
+
+.tab {
+    width: 300px;
+    flex-direction: column;
+    border: 2px solid white;
+    color: white;
+    margin-top: 110px;
+    
+}
+
+.bannerfooter {
+    height: 120px;
+    background-color: black;
+
+    
+}
+
+
+.finito {
+    height: 120px;
+    width: 120px;
+    border-top: 1px solid wheat;
+    padding: 55px;
+    padding-left: 0;
+    color: white;
 }
