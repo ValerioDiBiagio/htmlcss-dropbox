@@ -321,11 +321,11 @@ p {
 }
 
 .container3 {
-    background-color: aqua;
     height: 310px;
     width: 1000px;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -336,6 +336,12 @@ h2 {
 .container3 h5 {
     padding-top: 80px;
 }
+
+.link {
+    padding-left: 0px;
+}
+
+
 
 footer {
     background-color: black;
