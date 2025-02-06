@@ -313,10 +313,11 @@ p {
 }
 
 .col {
-    height: 450px;
     width: calc((100% - 80px) / 3);
-    
-    border: 2px solid black;
+}
+
+.col p {
+    font-size: 14px;
 }
 
 .container3 {
