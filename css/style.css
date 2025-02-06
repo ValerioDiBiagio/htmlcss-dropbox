@@ -13,24 +13,33 @@
 
 
 header {
-    background-color:coral
+    background-color: #ffffff;
+    padding: 20px;
 }
 
 .navigazione {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
 header ul {
+    align-items: center;
     list-style-type: none;
     display: flex;
+    gap: 20px;
 }
 
-header li {
-    border: 2px solid red;
-    padding-right: 40px;
-    padding: 30px;
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #0061fe;
+    color: #ffffff;
 }
 
 img {
@@ -66,11 +75,11 @@ img {
 }
 
 
-
-
 hr {
     margin-top: 130px;
 }
+
+
 .grill {
     width: 1000px;
     margin: 0 auto;
