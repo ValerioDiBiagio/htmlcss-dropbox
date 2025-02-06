@@ -1,4 +1,4 @@
-/* reset */
+reset */
 
 * {
     padding: 0%;
@@ -28,37 +28,40 @@ li {
     padding: 30px;
 }
 
-.bg-lightblue {
-    background-color: aqua;
+img {
+    max-width: 100%;
 }
-
 
 .container {
-    height: 410px;
-    width: 1200px;
+    width: 1190px;
     margin: 0 auto;
+}
+
+#jumbotron {
+    background-color: #b4d0e6;
+    margin-bottom: 150px;
+}
+
+#jumbotron .jumbotronbox {
     display: flex;
-}
-
-#h1 {
-    text-align: left;
-    font-size: 50px;
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 70px;
-}
-
-.box1 {
-    width: 400px;
-    background-color: chartreuse;
-}
-
-.box2 {
     
-    width: 800px;
-    background-color: chocolate;
 }
+
+#jumbotron .jumbotronleft {
+    width: 30%;
+}
+
+#jumbotron .jumbotronright {
+    width: 70%;
+}
+
+#jumbotron .container {
+    position: relative;
+    top: 100px
+}
+
+
+
 
 hr {
     margin-top: 130px;
